@@ -1,0 +1,90 @@
+/* Basic Body Styles */
+body {
+    margin: 0;
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: linear-gradient(135deg, #008080, #00b3b3); /* Teal Blue Gradient */
+    font-family: Arial, sans-serif; /* Font styling */
+}
+
+/* Container for Image and Form */
+.container {
+    display: flex; /* Flexbox layout for sections */
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    padding: 20px; /* Padding around the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    width: 800px; /* Fixed width */
+    max-width: 90%; /* Responsive max width */
+}
+
+/* Image Section */
+.image-section {
+    flex: 1; /* Allow section to grow equally */
+    display: flex; /* Flexbox for centering image */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Image Styles */
+.image-section img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Form Section */
+.form-section {
+    flex: 1; /* Allow section to grow equally */
+    padding: 20px; /* Padding inside form section */
+    color: white; /* Text color */
+}
+
+/* Main Heading */
+h1 {
+    text-align: center; /* Center heading */
+    color: #fff; /* White text */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 15px; /* Space below each form group */
+}
+
+/* Label Styles */
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+    color: #fff; /* White text */
+}
+
+/* Input Styles */
+input {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside input */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    font-size: 16px; /* Font size */
+}
+
+/* Button Styles */
+button {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background: linear-gradient(135deg, #004d4d, #006666); /* Darker teal blue gradient */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+/* Button Hover Styles */
+button:hover {
+    background: linear-gradient(135deg, #003333, #004d4d); /* Darker gradient on hover */
+}

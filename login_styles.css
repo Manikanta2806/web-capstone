@@ -1,0 +1,59 @@
+/* Basic Body Styles */
+body {
+    margin: 0;
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: linear-gradient(to bottom, #008080, #00b3b3); /* Teal Blue Gradient */
+    font-family: Arial, sans-serif; /* Font styling */
+}
+
+/* Container for Cards */
+.container {
+    display: flex; /* Flexbox layout for cards */
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    padding: 20px; /* Padding around the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    width: 800px; /* Fixed width */
+    max-width: 90%; /* Responsive max width */
+}
+
+/* Individual Card Styles */
+.card {
+    flex: 1; /* Allow cards to grow equally */
+    text-align: center; /* Center text */
+    margin: 10px; /* Space between cards */
+    padding: 20px; /* Padding inside cards */
+    border-radius: 8px; /* Rounded corners */
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow for cards */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Text color */
+}
+
+/* Card Hover Effects */
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+
+/* Image inside Card */
+.card-image {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Heading Styles */
+h2 {
+    margin: 15px 0; /* Vertical margin */
+}
+
+/* Paragraph Styles */
+p {
+    margin: 0; /* No margin */
+    color: #333; /* Dark gray text color */
+}
